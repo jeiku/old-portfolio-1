@@ -6,7 +6,24 @@
 
 /* Basic */
 
-	body, input, select, textarea {
-		font-size: 12pt;
-		line-height: 1.5em;
-	}
+body,
+input,
+select,
+textarea {
+	font-size: 12pt;
+	line-height: 1.5em;
+}
+
+.image-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.self-portrait {
+	margin-right: 5rem;
+	width: 24%;
+	border-radius: 50%;
+	border: whitesmoke solid 2px;
+}

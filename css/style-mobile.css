@@ -50,3 +50,19 @@
 	#page {
 		padding: 2em 1em;
 	}
+
+	.image-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	
+	.self-portrait{
+		width: 80%;
+		border-radius: 50%;
+		border: whitesmoke solid 2px;
+	}
+	

@@ -6,6 +6,29 @@
 
 /* Basic */
 
-	body, input, select, textarea {
-		font-size: 11pt;
-	}
+body,
+input,
+select,
+textarea {
+	font-size: 11pt;
+}
+
+.image-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.self-portrait {
+	width: 40%;
+	margin: 3rem 2rem;
+	border-radius: 50%;
+	border: bwhitesmoke solid 2px;
+}
+
+.image-container p {
+	margin-right: 1rem;
+}
