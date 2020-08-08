@@ -572,13 +572,19 @@ input[type="button"].medium,
 	/* background: #141f1a; */
 	/* background: linear-gradient(to right, #0f1116, #141f1a, #214736); */
 	/* background-color: rgba(17, 31, 20, 0.7); */
-	background-color: rgba(21, 24, 22, 0.7);
-	backdrop-filter: blur(5px);
+	background-color: rgb(21, 24, 22);
 	color: #fff;
 	padding: 1.25em 1.25em 1.25em 1.25em;
 	z-index: 100;
 }
 
+@supports(backdrop-filter: blur()) {
+	#header {
+		background-color: rgba(21, 24, 22, .7);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+	}
+	}
 /* Logo */
 
 #logo {
