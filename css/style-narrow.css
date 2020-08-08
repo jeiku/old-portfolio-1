@@ -26,7 +26,8 @@ textarea {
 	width: 40%;
 	margin: 3rem 2rem;
 	border-radius: 50%;
-	border: bwhitesmoke solid 2px;
+	border: whitesmoke solid 2px;
+	flex-shrink: 0;
 }
 
 .image-container p {

@@ -26,4 +26,5 @@ textarea {
 	width: 24%;
 	border-radius: 50%;
 	border: whitesmoke solid 2px;
+	flex-shrink: 0;
 }

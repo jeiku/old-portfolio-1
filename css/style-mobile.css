@@ -35,6 +35,7 @@
 			border-top: solid 1px rgba(255, 255, 255, 0.2) !important;
 		}
 
+
 /* Wrapper */
 
 	.wrapper.style1 {
@@ -64,5 +65,9 @@
 		width: 80%;
 		border-radius: 50%;
 		border: whitesmoke solid 2px;
+	}
+
+	.image-container p {
+		margin-right: 0 !important;
 	}
 	

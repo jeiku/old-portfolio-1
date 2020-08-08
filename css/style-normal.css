@@ -58,6 +58,7 @@ header.major .byline {
 	margin: 3rem 2rem;
 	border-radius: 50%;
 	border: whitesmoke solid 2px;
+	flex-shrink: 0;
 }
 
 .image-container p {
