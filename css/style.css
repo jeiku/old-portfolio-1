@@ -143,7 +143,6 @@ footer.major {
 	padding-top: 3em;
 }
 
-
 /* Form */
 
 form {
@@ -460,6 +459,18 @@ table.default thead {
 
 /* Button */
 
+#git-button {
+	background-color: #ca5936 !important;
+}
+#git-button:hover {
+	background-color: #bd2c00 !important;
+}
+
+.fa-github {
+	margin-left: 0.5rem;
+	font-size: 1.5rem;
+}
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -488,6 +499,7 @@ input[type="button"],
 	font-size: 1.2em;
 	font-weight: 600;
 	color: #fff !important;
+	margin: 0.5rem auto !important;
 }
 
 #resume {
@@ -504,7 +516,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	background: #585d9b;
+	background: #585d9b !important;
 }
 
 input[type="submit"].alt,
@@ -578,13 +590,13 @@ input[type="button"].medium,
 	z-index: 100;
 }
 
-@supports(backdrop-filter: blur()) {
+@supports (backdrop-filter: blur()) {
 	#header {
-		background-color: rgba(21, 24, 22, .7);
+		background-color: rgba(21, 24, 22, 0.7);
 		backdrop-filter: blur(5px);
 		-webkit-backdrop-filter: blur(5px);
 	}
-	}
+}
 /* Logo */
 
 #logo {
