@@ -33,27 +33,3 @@ textarea {
 .image-container p {
 	margin-right: 1rem;
 }
-
-.contact-container {
-	flex-direction: column !important;
-	align-content: center;
-	justify-content: space-evenly;
-	gap: 4rem;
-	font-size: 2.5rem;
-}
-
-.contact-container i{
-	font-size: 8rem;
-}
-
-.phone, .email {
-	display: flex;
-	gap: 1.5rem;
-	flex-direction: column;
-	background-color: rgba(65, 78, 77, 0.728);
-	padding: 2rem;
-	max-width: 500px;
-	margin: 0 auto;
-	border-radius: 10px;
-}
-

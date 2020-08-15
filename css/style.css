@@ -676,11 +676,15 @@ input[type="button"].medium,
 	flex-direction: row;
 	align-content: center;
 	justify-content: space-evenly;
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 }
 
 .contact-container i{
 	margin: 2rem;
+}
+
+.contact-container a {
+	text-decoration: none;
 }
 
 .phone, .email {
