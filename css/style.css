@@ -671,6 +671,32 @@ input[type="button"].medium,
 	color: #fff !important;
 }
 
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	font-size: 2.5rem;
+}
+
+.contact-container i{
+	margin: 2rem;
+}
+
+.phone, .email {
+	cursor: pointer;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	text-align: center;
+}
+
+.phone:hover, .email:hover {
+	color: white;
+}
+
 /* Page */
 
 #page {

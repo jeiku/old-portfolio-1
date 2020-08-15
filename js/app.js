@@ -9,7 +9,7 @@ function confirmation(e) {
 	if (!confirm("Would you like to view my resume as a PDF?")) {
 		e.preventDefault();
 	} else {
-		window.open("../sample.pdf");
+		window.open("../jacob-west-resume.pdf");
 	}
 }
 
