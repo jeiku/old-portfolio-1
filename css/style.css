@@ -150,6 +150,10 @@ form {
 	margin: 0em auto;
 }
 
+/* .sec {
+	padding-top: 30px !important;
+} */
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -679,7 +683,7 @@ input[type="button"].medium,
 	font-size: 1.8rem;
 }
 
-.contact-container i{
+.contact-container i {
 	margin: 2rem;
 }
 
@@ -687,7 +691,8 @@ input[type="button"].medium,
 	text-decoration: none;
 }
 
-.phone, .email {
+.phone,
+.email {
 	cursor: pointer;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
@@ -697,7 +702,8 @@ input[type="button"].medium,
 	text-align: center;
 }
 
-.phone:hover, .email:hover {
+.phone:hover,
+.email:hover {
 	color: white;
 }
 
