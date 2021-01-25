@@ -12,9 +12,9 @@ function confirmation(e) {
 
 sr.reveal(".animate-up", {
   origin: "bottom",
-  duration: 500,
-  distance: "9rem",
-  delay: 120,
+  duration: 600,
+  distance: "7rem",
+  delay: 100,
 });
 
 resume.addEventListener("click", confirmation);
